@@ -18,10 +18,14 @@
     <div class="buttons">
       <button id="start" class="glow-button">Start</button>
       <button id="stop" class="glow-button" disabled>Stop</button>
+      <button id="helloButton" class="glow-button">Say Hello</button>
     </div>
   </div>
-    </div>
-  </div>
+  <script>
+    document.getElementById('helloButton').onclick = function() {
+      alert('Hello');
+    };
+  </script>
   <script src="js/script.js"></script>
   <script src="js/modals.js"></script>
 </body>
